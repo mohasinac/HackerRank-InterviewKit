@@ -165,19 +165,6 @@ function mergeSort(array, start, end) {
     return finalReturn;
 }
 
-function mergesort(arr,low,high){
-    if(low<high){
-        let mid = Math.floor((high - low) / 2);
-        mergesort(arr,low,mid);
-        mergesort(arr,mid+1,high);
-        merge()
-    }    
-}
-
-function merge(arr,low,mid,high){
-    
-}
-
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
